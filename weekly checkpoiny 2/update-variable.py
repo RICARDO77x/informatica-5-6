@@ -11,18 +11,18 @@ def main():
 
     # Multiplication Assignment Operator
     skill = 10
-    skill *=20
+    skill *= 20
     print (skill)
 
-     text = 10
+     text = "ImRicardo"
     text *=20
     print (text)
 
     # Division Assignment Operator
 
-    pizzas = 8
+    pizza = 8
     people = int(input("Number of people at the pizza party:"))
-    pizzas /=people
+    pizzas /= people
     print(pizza)
 
     #Modulos Assignmet Operator
