@@ -1,6 +1,6 @@
 def main():
    rating
-   rating = int(input("rating: "))
+   rating = float(input("rate your experience to 0-5: "))
 
 
 

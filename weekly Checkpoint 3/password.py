@@ -5,7 +5,7 @@ def main():
     if attempt == password:
         print("The password is correct")
 
-print("see you later.")
+    print("see you later.")
 
 
 

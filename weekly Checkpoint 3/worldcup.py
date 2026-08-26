@@ -9,7 +9,7 @@ def main():
 
     if spain > argentina:
         print("Spain is the winner")
-    elif argentina > spain:
+    elif argentina > spain:_
         print("Argentina is the winner")
     else:
         print("It´s a tie.")
