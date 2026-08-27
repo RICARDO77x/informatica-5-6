@@ -1,3 +1,7 @@
+
+
+
+
 def main():
 
     number1 = int(input("Give me a number: "))
@@ -6,7 +10,7 @@ def main():
     elif number1 <= 0:
         print(number1 * -1)
 
-   
+
     print("Calculator Medium")
     number2 = int(input("Give me a number: "))
     number3 = int(input("Give me a number: "))

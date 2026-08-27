@@ -1,7 +1,10 @@
 def main():
 
-    atmospheric= int(input("target atmospheric layer: "))
-    if atmospheric > exosphere:
+    layer = int(input("atmospheric layer: "))
+    if layer >= 700:
+        print(Exosphere)
+    elif layer <= 10000:
+        print(layer * -2000)
 
 
 
