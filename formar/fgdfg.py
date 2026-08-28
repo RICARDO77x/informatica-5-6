@@ -17,9 +17,14 @@ def main():
         print(layer * -200)
 
      if layer >= 12:
-        print(Stratosphere )
+        print(Exosphere)
     elif layer <= 50:
         print(layer * -500)
+
+
+
+
+
 
 
 
