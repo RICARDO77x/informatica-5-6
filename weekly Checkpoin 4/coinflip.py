@@ -1,13 +1,24 @@
 import random
 
 def main():
-    die1 = random.randint(1, 6)
-    die2 = random.randint(1, 6)
-    print(die1 + die2)
 
-    # figures = ["car", "windmill", "camel", "tiki", "sumo"]
-    # random.shuffle(figures)
-    # print(figures)
+    user = imput("chose a side")
 
-if __name__ == "__main__":
+
+    coin= random.randint(1, 2)
+    if coin == 1:
+         print("eagle")
+    if coin == 2:
+         print("sun")
+
+    if user == coin:
+        print winer
+    if user == coin
+
+if __name__ =="__main__":
     main()
+
+
+    attempt = input ("digite la contraseña.")
+    if attempt == password:
+        print("The password is correct")
