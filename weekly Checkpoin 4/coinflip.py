@@ -17,8 +17,12 @@ def main():
 
 if __name__ =="__main__":
     main()
-
+coin = ["heads", "tails"]
 
     attempt = input ("digite la contraseña.")
     if attempt == password:
         print("The password is correct")
+
+
+
+coin = ["heads", "tails"]
