@@ -1,7 +1,7 @@
 import random
 
 def main():
-    coin = ["heads", "tails"]
+    coin = ["1", "2"]
     attempts = 20
     while attempts > 0:
         flip = random.choice(coin)
