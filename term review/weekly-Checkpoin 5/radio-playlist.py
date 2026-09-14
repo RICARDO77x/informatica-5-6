@@ -13,10 +13,17 @@ def main():
     playlist.sort()
     print(playlist)
 
-    repeat = 10
+    repeat = len(playlist)
     while repeat > 0:
         print(playlist)
-        son_played=playlist[]
+        song_played = playlist[0]
+        playlist.pop(0)
+        playlist.append(song_played)
+        time.sleep(3)
+        repeat -= 1
+
+
+
 
 if __name__ == "__main__":
     main()
