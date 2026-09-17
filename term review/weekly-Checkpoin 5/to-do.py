@@ -8,6 +8,11 @@ def main():
         if command == "add":
             new_tareas = input("Enter a new tareas: ")
             tareas.append(new_tareas)
+
+
+        if command == "complete":
+            new_tareas = input("")
+
         elif command == "stop":
             break
 
