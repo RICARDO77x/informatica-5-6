@@ -10,8 +10,9 @@ def main():
             tareas.append(new_tareas)
 
 
-        if command == "complete":
-            new_tareas = input("")
+        elif command == "complete":
+            complete = input("tareas to cpmplete: ").lowe()
+            tareas.remove(complete)
 
         elif command == "stop":
             break

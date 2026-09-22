@@ -1,3 +1,4 @@
+import time
 def main():
     playlist = ["Boston", "Dracula", "I Knew It, I Knew You", "hate that i made you love me", "Risk It All"]
     playlist.append("Be By You")

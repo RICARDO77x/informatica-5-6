@@ -13,7 +13,7 @@ def main():
         elif new_task in tasks:
             tasks.append(new_task)
         elif new_task in tasks:
-            del_confirm = input(f"Did you completed {new_taks}? (y/n): ").lower().strip)()
+            del_confirm = input(f"Did you completed {new_taks}? (y/n): ").lower().strip()
             if del_confirm == "y":
                 tasks.remove(new_task)
         else:
