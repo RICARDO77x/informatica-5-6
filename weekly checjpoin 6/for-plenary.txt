@@ -1,0 +1,33 @@
+def main():
+
+
+1. Write a description for a while loop.
+repeats things in an indefinite way under a condition
+
+
+
+2. Write a description for a for loop.
+It repeats things in a specific way, depending on the limits I set for the user.
+
+
+
+
+3. Compare a while loop to a for loop
+...that one person keeps repeating things endlessly, while the other only does it when you ask them to.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ =="__main__":
+    main()
