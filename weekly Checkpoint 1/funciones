@@ -1,0 +1,26 @@
+## def (Definir función): Se usa para crear tus propias herramientas o bloques de código organizados.
+  - Cómo usarla: Escribes `def nombre_de_tu_funcion():` al principio, y dentro colocas las instrucciones que quieres que ejecute cada vez que la llames.
+
+## if (Condicional "Si"): Se usa para tomar decisiones.
+  - Cómo usarla: Pones `if condicion:` y, solo si esa condición es verdadera, Python ejecutará el código que está indentado debajo.
+
+## else (Condicional "Si no"): Se usa como plan de respaldo cuando el `if` no se cumple.
+  - Cómo usarla: Se coloca justo después de un bloque `if` para indicar qué hacer si la condición principal era falsa.
+
+## for (Bucle de repetición): Se usa para recorrer elementos uno por uno de forma automática.
+  - Cómo usarla: Escribes `for elemento in lista:` para pasar por cada objeto de una lista o letra de un texto sin tener que escribir el código manualmente para cada uno.
+
+## len() (Longitud): Se usa para saber cuántos elementos tiene una lista, cuántas letras tiene un texto, etc.
+  - Cómo usarla: Pones `len(mi_lista)` y te devolverá un número entero con la cantidad exacta de elementos que contiene.
+
+## range() (Rango numérico): Se usa para crear una secuencia de números consecutivos.
+  - Cómo usarla: Se combina mucho con los bucles, por ejemplo, `range(5)` genera los números del 0 al 4 para contar o repetir algo un número exacto de veces.
+
+## input() (Entrada de usuario): Se usa para pedir información por teclado a la persona que usa el programa.
+  - Cómo usarla: Escribes `variable = input("Escribe algo: ")` para detener el programa un momento, esperar la respuesta del usuario y guardarla.
+
+## print() (Imprimir en pantalla): Se usa para mostrar mensajes, variables o resultados a la vista del usuario.
+  - Cómo usarla: Escribes `print("Hola")` o `print(resultado)` para que aparezca impreso en la consola.
+
+## return (Devolver resultado): Se usa dentro de las funciones para sacar un resultado final hacia afuera de ella.
+  - Cómo usarla: Escribes `return total` al final de tu función para entregar el valor calculado al resto de tu programa.
