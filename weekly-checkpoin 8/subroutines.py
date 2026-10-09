@@ -1,14 +1,17 @@
-def main():
-    def calculate(a,b):
+def calculate(a,b):
         answer = a + b
         print(f"{a} + {b} = {answer}")
+
+def average_value(a, b ,c):
+        answe = (a + b + c) / 3
+        print(f"the average value is {roun(answer, 1)}")
 
     num1 = 10
     num1 = 15
 
     calculate(num1, num2)
 
-    def average_value(a, b, c):
+def average_value(a, b, c):
         answer = (a + b + c) / 3
         print(f"The average value is {round(answer,1)}")
 
