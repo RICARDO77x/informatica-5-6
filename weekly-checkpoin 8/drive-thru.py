@@ -28,19 +28,5 @@ def get_item(order):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if __name__ =="__main__":
     main()
