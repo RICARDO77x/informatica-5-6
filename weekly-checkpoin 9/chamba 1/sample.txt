@@ -1,0 +1,4 @@
+hello there!
+this example file contains three lines of text.
+this is the last line.
++1000000000 Aura
